@@ -15,6 +15,8 @@ while True:
     password = input("Enter your password: ")
     specialChar = ["#","!","@","$","%","^","&","*"]
 
+    char = False
+    
     for i in range(len(specialChar)):
         for j in range(len(password)):
             if (specialChar[i] == password[j]):
